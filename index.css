@@ -1,0 +1,98 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  background-color: #ffffff;
+}
+
+blockquote {
+  border-left: 2px solid #3498db;
+  margin: 10px 0;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+code {
+background-color: rgb(235, 235, 235);
+border-radius: 5px;
+padding: 2px 3px;
+font-weight: 900;
+}
+
+
+.code-container {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+.user-input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.user-input:focus {
+  border-color: #66afe9; 
+  outline: none; /* Remove the default focus outline if needed */
+}
+
+.output-div {
+  padding: 10px;
+  white-space: pre-wrap;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.control-buttons button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.control-buttons button:hover {
+  background-color: #ddd;
+}
+
+#addButton {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #ff5b5b;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #ffa7a7;
+  color: #000000;
+}
