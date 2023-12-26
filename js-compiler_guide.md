@@ -2,4 +2,4 @@
 # for new line `Shift+ Enter`
 
 
-Click [here](https://example.com/smile) to visit.
+Click [here](https://geektopuslabs.github.io/jsconsole/) to visit.
